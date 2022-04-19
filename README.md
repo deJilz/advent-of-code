@@ -1,4 +1,6 @@
-"# advent-of-code" 
-This page contains my Advent of Code files from previous years. 
+"# advent-of-code"
+<h1> Advent of Code - deJilz </h1>
 
-There are holes, but I hope to fill some, at least from the past year.
+Recently, I discovered the Advent of Code event. This repo contains my attempts, some inputs, and other helpful files I use.
+
+This repo is also the first one I have made. It will be testing grounds for some things and shouldn't be taken too seriously. All in good fun.
