@@ -8,11 +8,13 @@ def main():
     array = [x for x in open(input_path+os.path.basename(__file__).split('.')[0]+'.txt', 'r').readlines()]
     array = list(map(int, array[0].strip().split(",")))
     
-    y = 1000000 # starting cheapest fuel
+    y = 10000000000 # starting cheapest fuel, dont want to store an array
     for i in range(min(array),max(array)):
-        f = sum([abs(k-i) for k in array])
+        f = sum([((abs(k-i)*(abs(k-i)+1))/2) for k in array])
+        i+=1
         if f < y:
             y = f
     print ("Cheapest option costs " + str(y))
 
 main()
+
